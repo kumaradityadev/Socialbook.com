@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facemash.com</title>
+    <link rel="shortcut icon" href="./assest/images/facebook_logo_icon_225643.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+
+<body>
+    <!-------- Header Section Start ---------->
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="./assest/images/logo.png" alt="" class="logo">
+        </a>
+            <ul>
+                <li><img src="./assest/images/notification.png" alt="notification"></li>
+                <li><img src="./assest/images/inbox.png" alt="inbox"></li>
+                <li><img src="./assest/images/video.png" alt="video"></li>
+            </ul>
+        </div>
+
+        <div class="nav-Right">
+            <div class="searchbox">
+                <img src="./assest/images/search.png" alt="search">
+                <input type="text" name="Search" id="Search" placeholder="Search Facemash">
+            </div>
+            <div class="profile online" onclick="SeetingMenuToggle()">
+                <img src="./assest/images/profile-pic.png" alt="profile-pic">
+            </div>
+        </div>
+        <!-- Seeting menu  -->
+        <div class="seeting-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="seeting-menu-inner">
+                <div class="user-profile">
+                    <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                    <div>
+                        <p>Mohit Kumar</p>
+                        <a href="./profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./assest/images/feedback.png" alt="profile-pic">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the post Design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="seeting-links">
+                    <img src="./assest/images/setting.png" alt="setting" class="seeting-icon ">
+                    <a href="#">Seeting & Privacy <img src="./assest/images/arrow.png" alt="arrow.png" width="10px"></a>
+                </div>
+                <div class="seeting-links">
+                    <img src="./assest/images/help.png" alt="setting" class="seeting-icon ">
+                    <a href="#">Help & Support <img src="./assest/images/arrow.png" alt="arrow.png" width="10px"></a>
+                </div>
+                <div class="seeting-links">
+                    <img src="./assest/images/display.png" alt="setting" class="seeting-icon ">
+                    <a href="#">Display & Acessibilty <img src="./assest/images/arrow.png" alt="arrow.png" width="10px"></a>
+                </div>
+                <div class="seeting-links">
+                    <img src="./assest/images/logout.png" alt="logout" class="seeting-icon ">
+                    <a href="#">Logout <img src="./assest/images/arrow.png" alt="arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-------- Header Section End---------->
+
+    <!-- Content Area Start -->
+
+    <div class="container">
+        <!-- Left sidebar start -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="./assest/images/news.png" alt="news">Latest News</a>
+                <a href="#"><img src="./assest/images/friends.png" alt="news">Friends</a>
+                <a href="#"><img src="./assest/images/group.png" alt="news"> groups</a>
+                <a href="#"><img src="./assest/images/marketplace.png" alt="news">Marketplace</a>
+                <a href="#"><img src="./assest/images/watch.png" alt="news">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./assest/images/shortcut-1.png" alt="shortcut-1">Web Developer</a>
+                <a href="#"><img src="./assest/images/shortcut-2.png" alt="shortcut-2">Web Design course</a>
+                <a href="#"><img src="./assest/images/shortcut-3.png" alt="shortcut-3">Full Stack Development</a>
+                <a href="#"><img src="./assest/images/shortcut-4.png" alt="shortcut-4">Website expert</a>
+            </div>
+        </div>
+       
+
+
+        <!-- Main Content start -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story-1">
+                    <img src="./assest/images/upload.png" alt="upload">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story-2">
+                    <img src="./assest/images/member-1.png" alt="upload">
+                    <p>Rashmi</p>
+                </div>
+                <div class="story story-3">
+                    <img src="./assest/images/member-2.png" alt="upload">
+                    <p>Aditya</p>
+                </div>
+                <div class="story story-4">
+                    <img src="./assest/images/member-3.png" alt="upload">
+                    <p>Sakshi</p>
+                </div>
+                <div class="story story-5">
+                    <img src="./assest/images/member-4.png" alt="upload">
+                    <p>Gautam</p>
+                </div>
+            </div>
+
+            <div class="write-post-content">
+                <div class="user-profile">
+                    <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                    <div>
+                        <p>Mohit Kumar</p>
+                        <small> Public <i class="fa-solid fa-caret-down"></i> </small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea name="" id="" rows="3" placeholder="Whats your mind mohit ?"></textarea>
+                </div>
+
+                <div class="add-post-link">
+                    <a href="#"><img src="./assest/images/live-video.png" alt="video.png">Live video</a>
+                    <a href="#"><img src="./assest/images/photo.png" alt="photo.png">Image/Video</a>
+                    <a href="#"><img src="./assest/images/feeling.png" alt="feeling.png">feeling/Activity</a>
+                </div>
+            </div>
+
+                <div class="post-content">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Mohit Kumar</p>
+                                <span>december 23 2024, 1.30 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">
+                        Sapno ki udaan, khwabon ka parwaz
+                        Jo hai andhera, woh hai zaroori
+                        Par hai umeed, hai junoon
+                        Main udaan uthaunga, main sapna dekhoonga
+                        <span>#Coading #Development</span>
+                    </p>
+                    <img src="./assest/images/feed-image-1.png" alt="feed-image-1" class="feed-post">
+
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="./assest/images/like-blue.png" alt=""> 120</div>
+                            <div><img src="./assest/images/comments.png" alt=""> 45</div>
+                            <div><img src="./assest/images/share.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-content">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Mohit Kumar</p>
+                                <span>November 25 2024, 2.30 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">
+                        Mehnat kar, success paega
+                        Khwab dekho, unhein pura karega
+                        Nahi hai asaan, par hai mumkin
+                        Main mehnat karunga, main success paunga
+
+                        <span>#Coading #Development</span>
+                    </p>
+                    <img src="./assest/images/feed-image-2.png" alt="feed-image-1" class="feed-post">
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="./assest/images/like.png" alt=""> 160</div>
+                            <div><img src="./assest/images/comments.png" alt=""> 85</div>
+                            <div><img src="./assest/images/share.png" alt=""> 40</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-content">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Mohit Kumar</p>
+                                <span>May 28 2024, 12.30 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">
+                        Himmat hai, hausla hai
+                        Main khud par trust karta hoon
+                        Nahi hai asaan, par hai zaroori
+                        Main himmat rakhoonga, main hausla uthaunga
+
+
+                        <span>#Coading #Development</span>
+                    </p>
+                    <img src="./assest/images/feed-image-3.png" alt="feed-image-1" class="feed-post">
+                    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="./assest/images/like-blue.png" alt=""> 180</div>
+                            <div><img src="./assest/images/comments.png" alt=""> 65</div>
+                            <div><img src="./assest/images/share.png" alt=""> 49</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Mohit Kumar</p>
+                                <span>October 28 2024, 3.30 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">
+                        Khud par vishwas, khud par trust
+                        Main khud ko samajhta hoon
+                        Nahi hai koi, jo mujhe hara de
+                        Main khud par vishwas karta hoon
+                        
+
+
+                        <span>#Coading #Development</span>
+                    </p>
+                    <img src="./assest/images/feed-image-4.png" alt="feed-image-1" class="feed-post">
+                    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="./assest/images/like.png" alt=""> 90</div>
+                            <div><img src="./assest/images/comments.png" alt=""> 75</div>
+                            <div><img src="./assest/images/share.png" alt=""> 100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Mohit Kumar</p>
+                                <span>January 23 2024, 6.30 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <p class="post-text">
+                        Himmat hai, hausla hai
+                        Main khud par trust karta hoon
+                        Nahi hai asaan, par hai zaroori
+                        Main himmat rakhoonga, main hausla uthaunga
+
+
+                        <span>#Coading #Development</span>
+                    </p>
+                    <img src="./assest/images/feed-image-5.png" alt="feed-image-1" class="feed-post">
+                    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="./assest/images/like.png" alt=""> 120</div>
+                            <div><img src="./assest/images/comments.png" alt=""> 35</div>
+                            <div><img src="./assest/images/share.png" alt=""> 90</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./assest/images/profile-pic.png" alt="profile-pic"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more">Load More</button>
+        </div>
+
+        <!-- Right sidebar start -->
+        <div class="right-sidebar">
+
+            <div class="side-title">
+                <h4>Event</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Facemash Campus</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>23</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4>Instagram Marckting</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Instagram Campus</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="side-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./assest/images/advertisement.png" alt="advertisement" class="sidebar-ads">
+            <div class="side-title">
+                <h4>Converstion</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+
+                <div class="online">
+                    <img src="./assest/images/member-1.png" alt="member-1">
+                </div>
+                <p>Rashmi</p>
+            </div>
+            <div class="online-list">
+
+                <div class="online">
+                    <img src="./assest/images/member-2.png" alt="member-1">
+                </div>
+                <p>Aditya</p>
+            </div>
+            <div class="online-list">
+
+                <div class="online">
+                    <img src="./assest/images/member-3.png" alt="member-1">
+                </div>
+                <p>Sakshi</p>
+            </div>
+            <div class="online-list">
+
+                <div class="online">
+                    <img src="./assest/images/member-4.png" alt="member-1">
+                </div>
+                <p>Gautam</p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Content Area End -->
+
+        <div class="footer" >
+            <p> Copyright @ 2024 Created By Aditya Kumar </p>
+        </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  <script src="./assest/js/script.js"></script>
+</body>
+
+</html>
+
+<!-- Less 35 min -->
+
